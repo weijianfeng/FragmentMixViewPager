@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentMixViewPager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="no1">No1</string>
+    <string name="no2">No2</string>
+    <string name="no3">No3</string>
+    <string name="no4">No4</string>
+
+</resources>
