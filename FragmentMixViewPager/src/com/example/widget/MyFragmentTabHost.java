@@ -1,5 +1,7 @@
 package com.example.widget;
 
+import com.example.base.BaseFragmentTabHost;
+
 import android.content.Context;
 import android.support.v4.app.FragmentTabHost;
 import android.util.AttributeSet;
@@ -12,7 +14,7 @@ import android.util.AttributeSet;
  * 
  */
 
-public class MyFragmentTabHost extends FragmentTabHost {
+public class MyFragmentTabHost extends BaseFragmentTabHost {
 
 	private String mCurrentTag;
 
