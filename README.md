@@ -5,4 +5,6 @@ Fragment的嵌套。子Fragment使用ViewPager进行切换。
    
    https://git.oschina.net/oschina/android-app
    
+   工程中使用了BaseFragmentTabHost这个改写的类，解决了原生FragmentTabHost无法隐藏Fragment的问题。
+   
    ![image](https://github.com/weijianfeng/FragmentMixViewPager/blob/master/readme.gif) 
