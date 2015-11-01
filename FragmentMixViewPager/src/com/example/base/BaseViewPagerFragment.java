@@ -49,7 +49,10 @@ public abstract class BaseViewPagerFragment extends BaseFragment {
 		// mViewPager.setCurrentItem(pos, true);
 		// }
 	}
-
+    
+	/**
+	 * 需要子类进行重写，设置viewpager的缓存页数
+	 */
 	protected void setScreenPageLimit() {
 	}
 

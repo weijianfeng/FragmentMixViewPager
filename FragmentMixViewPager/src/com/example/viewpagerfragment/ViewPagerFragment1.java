@@ -21,6 +21,12 @@ public class ViewPagerFragment1 extends BaseViewPagerFragment implements
 	}
 
 	@Override
+	protected void setScreenPageLimit() {
+		// TODO Auto-generated method stub
+		mViewPager.setOffscreenPageLimit(2);
+	}
+
+	@Override
 	public void onClick(View v) {
 
 	}
